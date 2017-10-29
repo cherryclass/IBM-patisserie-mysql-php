@@ -7,6 +7,6 @@ applications:
   disk_quota: 1024M
   buildpack: php_buildpack
   declared-services:
-    my-compose-for-mysql-service
+    my-compose-for-mysql-service:
       label: compose-for-mysql
       plan: Standard

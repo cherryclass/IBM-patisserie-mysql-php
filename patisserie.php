@@ -18,7 +18,7 @@
 		$dbname = "patisserie";
 
 		$dsn = "mysql:host=" . $db_creds['host'] . ";port=" . $db_creds['port'] . ";dbname=" . $dbname;
-		$dbh = new PDO($dsn, $db_creds['user'], $db_creds['pass']);
+		$dbh = new PDO($dsn, $db_creds['user'], $db_creds['pass'],array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 		
 	/*$dsn='mysql:dbname=patisserie;host=sl-us-dal-9-portal.6.dblayer.com:';
 	$user='';

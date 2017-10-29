@@ -2,8 +2,7 @@ applications:
 - path: .
   memory: 128M
   instances: 1
-  domain: mybluemix.net
-  name: petitBiscuit
-  host: petitBiscuit
+  name: petitBiscuit-${random-word}
+  host: petitBiscuit-${random-word}
   disk_quota: 1024M
   buildpack: php_buildpack

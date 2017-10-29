@@ -7,5 +7,5 @@ applications:
   disk_quota: 1024M
   buildpack: php_buildpack
   services:
-  - compose-for-mysql
+  - Compose-for-MySQL-tj
  

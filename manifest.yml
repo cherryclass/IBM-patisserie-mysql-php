@@ -6,3 +6,6 @@ applications:
   host: petitBiscuit-${random-word}
   disk_quota: 1024M
   buildpack: php_buildpack
+#  services:
+#  - Compose-for-MySQL-tj
+ 

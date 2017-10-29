@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php": "7.1.*",
+        "ext-mbstring": "*",
+        "ext-mysqli": "*",
+        "ext-xml": "*",
+        "ext-pcre": "*",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    }        
+}

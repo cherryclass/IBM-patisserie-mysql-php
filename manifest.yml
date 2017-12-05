@@ -2,9 +2,8 @@ applications:
 - path: .
   memory: 128M
   instances: 1
-  name: petitBiscuit-${random-word}
+  name: petitBiscuit
   host: petitBiscuit-${random-word}
-  disk_quota: 1024M
   buildpack: php_buildpack
 #  services:
 #  - Compose-for-MySQL-tj

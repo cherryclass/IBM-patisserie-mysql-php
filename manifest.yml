@@ -1,6 +1,6 @@
 applications:
 - path: .
-  memory: 128M
+  memory: 32M
   instances: 1
   name: petitBiscuit
   host: petitBiscuit-${random-word}

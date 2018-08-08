@@ -3,7 +3,7 @@ applications:
   memory: 32M
   instances: 1
   name: petitBiscuit
-  host: petitBiscuit-${random-word}
+  route: petitBiscuit-${random-word}
   buildpack: php_buildpack
 #  services:
 #  - Compose-for-MySQL-tj

@@ -1,8 +1,7 @@
 applications:
-- path: .
+- name: petitBiscuit
   memory: 128M
   instances: 1
-  name: petitBiscuit
   route: petitBiscuit-${random-word}
   buildpack: php_buildpack
 #  services:

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title> Accès à Mysql sur BlueMix</title>
+	<title> Accès à Mysql sur IBM Cloud</title>
 	<meta http-equiv="content-type" content="texthtml; charset=utf-8">
 	<link rel="stylesheet" href="style.css"/>
 </head>

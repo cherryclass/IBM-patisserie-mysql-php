@@ -1,6 +1,6 @@
 applications:
 - path: .
-  memory: 32M
+  memory: 128M
   instances: 1
   name: petitBiscuit
   route: petitBiscuit-${random-word}

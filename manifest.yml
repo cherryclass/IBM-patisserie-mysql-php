@@ -2,7 +2,8 @@ applications:
 - name: petitBiscuit
   memory: 128M
   instances: 1
-  route: petitBiscuit-${random-word}
+  routes: 
+    - route: patisserie-${random-word}.eu-de.mybluemix.net
   buildpack: php_buildpack
 #  services:
 #  - Compose-for-MySQL-tj

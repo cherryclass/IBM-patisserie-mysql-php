@@ -13,7 +13,8 @@
 			</td>
 			<td>
 				<h1 id = "message">Les petits biscuits que j’adore</h1>
-				<p class='description'></p> Thanks for creating a <span class="blue">PHP Starter Application</span>.
+				<br>
+				<a href="patisserie.php"> Liste des biscuits</a>
 			</td>
 		</tr>
 	</table>
